@@ -1,0 +1,359 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  padding: 20px;
+}
+
+/* section1----------------------------------------------------- */
+
+.section1 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: white;
+}
+
+.section1 .maindiv {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: 40% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30%;
+}
+
+.maindiv .header {
+  padding: 8px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .right-nav {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+}
+.header .right-nav a {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.header .right-nav a:hover {
+  text-decoration: underline;
+}
+
+.header .right-nav button {
+  padding: 8px;
+  background-color: transparent;
+  border: 2px solid #a6aaa6;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  font-family:
+    systeadem-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+.header .right-nav button:hover {
+  background-color: white;
+  color: black;
+}
+
+.header .logo h1 {
+  padding: 8px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.maindiv .mainheading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.maindiv .mainheading h1 {
+  font-size: 128px;
+  font-size: 700;
+}
+.maindiv .mainheading h3 {
+  font-size: 24px;
+  font-size: 600;
+}
+
+.mainheading .line {
+  margin: 10px;
+  height: 1px;
+  width: 40px;
+  border: 3px solid white;
+}
+
+/* section 2 ----------------------------------------------------------*/
+
+.section2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section2 .articalhead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+
+.section2 .articalhead h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+.articalhead .line2 {
+  height: 1px;
+  width: 50px;
+  border: 3px solid black;
+}
+
+.section2 .articles {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.articles .article1,
+.article2,
+.article3 {
+  width: 300px;
+  height: 450px;
+  background-color: white;
+  box-shadow: 15px 10px 15px rgba(0, 0, 0, 0.5);
+}
+.articles .article1:hover,
+.article2:hover,
+.article3:hover {
+  box-shadow: 15px 10px 15px rgba(0, 0, 0, 0.7);
+}
+
+.articles .label {
+  height: 225px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.label h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.label .line4 {
+  height: 1px;
+  width: 50px;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+
+.articles img {
+  width: 100%;
+  height: 225px;
+}
+
+/* section 3 ----------------------------------------------------------------*/
+
+.section3 {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.section3 .left {
+  width: 50%;
+  height: 100%;
+}
+.section3 .right {
+  width: 50%;
+  height: 100%;
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right .about {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.about h1 {
+  font-weight: 600;
+  font-size: 48px;
+}
+.about div {
+  height: 1px;
+  width: 60px;
+  border: 3px solid black;
+  margin-bottom: 5px;
+  margin-bottom: 60px;
+}
+.about h3 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.left img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer .form {
+  width: 100%;
+  height: 60%;
+  background-color: RGB(245, 247, 246);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.form h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.form h2 {
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.form input {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+  text-align: center;
+  border: none;
+}
+.form input:hover {
+  border: 1px solid black;
+}
+
+.form button {
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: transparent;
+  border: 2px solid #a6aaa6;
+  opacity: 0.8;
+}
+.form button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  opacity: 1;
+}
+
+footer .footer-div {
+  width: 100%;
+  height: 60%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.foot-icon {
+  width: 50px;
+  display: flex;
+  gap: 15px;
+}
+.footer-div i {
+  font-size: 24px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+.footer-div i:hover {
+  opacity: 1;
+}
+
+.foot-a {
+  width: 150px;
+  display: flex;
+  gap: 15px;
+}
+
+.footer-div a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.footer-div a:hover {
+  text-decoration: underline;
+}
