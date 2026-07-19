@@ -6,6 +6,12 @@ A clean and modern landing page built using **HTML5** and **CSS3**. This project
 
 ---
 
+## 🌐 Live Demo
+
+https://assignment-5-seven-xi.vercel.app/
+
+---
+
 ## ✨ Features
 
 - Hero landing section
